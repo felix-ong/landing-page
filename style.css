@@ -5,6 +5,11 @@ body {
   flex-direction: column;
 }
 
+img {
+  width: 100px;
+  height: 100px;
+}
+
 .header, .footer {
   background-color: #1F2937;
   display: flex;
@@ -59,7 +64,8 @@ a, .hero-secondary, .footer {
 
 .header-image {
   /* display: flex; */
-  max-width: 200px;
+  width: 300px;
+  height: auto;
 }
 
 button, .call-to-action {
@@ -74,9 +80,31 @@ button {
   margin-top: 8px;
 }
 
+.information {
+  color: #1F2937;
+  padding: 32px 240px;
+}
+
 .info .text {
   font-size: 18px;
-  color: #1F2937;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  gap: 52px;
+}
+
+.info-header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  margin-bottom: 32px;
+}
+
+.info img {
+  border: 5px solid #3882F6;
+  border-radius: 8px;
 }
 
 .footer {
@@ -85,6 +113,4 @@ button {
   align-items: center;
 }
 
-img {
-  width: 500px;
-}
+
