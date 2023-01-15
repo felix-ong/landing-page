@@ -1,3 +1,9 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
@@ -79,6 +85,10 @@ button {
   border: none;
   padding: 8px 32px;
   border-radius: 8px;
+
+}
+
+.hero button {
   margin-top: 8px;
 }
 
@@ -124,6 +134,19 @@ button {
   font-size: 24px;
   font-weight: bold;
   font-style: normal;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 32px 200px;
+  padding: 24px 60px;
+  border-radius: 8px;
+}
+
+.call-to-action button {
+  border: 1px solid #F9FAF8;
 }
 
 .footer {
