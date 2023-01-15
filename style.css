@@ -28,6 +28,7 @@ img {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 96px;
+  padding: 16px;
 }
 
 ul {
@@ -60,6 +61,7 @@ a, .hero-secondary, .footer {
 .header-content {
   display: flex;
   justify-content: space-between;
+  padding: 16px;
 }
 
 .header-image {
@@ -83,6 +85,7 @@ button {
 .information {
   color: #1F2937;
   padding: 32px 240px;
+  text-align: center;
 }
 
 .info .text {
